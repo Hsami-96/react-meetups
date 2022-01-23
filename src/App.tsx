@@ -1,7 +1,6 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import Layout from './components/layout/Layout';
-import MainNavigation from './components/layout/MainNavigation';
 import AllMeetupsPage from './pages/AllMeetups';
 import FavouritesPage from './pages/Favourites';
 import NewMeetupsPage from './pages/NewMeetup';
