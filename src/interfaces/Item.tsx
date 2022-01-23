@@ -1,7 +1,7 @@
 export interface Item {
-    id: string,
-    title: string,
-    address: string,
-    image: string,
-    description: string
+    id: string | undefined,
+    title: string | undefined,
+    address: string | undefined,
+    image: string| undefined,
+    description: string| undefined
 }
